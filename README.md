@@ -1,10 +1,10 @@
 <h1 align="center">
-  LandingPage Disney+
+  Interface Disney+
 </h1>
 
 ## Projeto
 
-Esse projeto é uma landing page disney.
+Esse projeto é uma interface da disney+ usando HTML, CSS e JavaScript. Todo o conteúdo da aplicação foi gerado utlizando o serviço(API) da TMDB.
 
 ## Tecnologias
 
