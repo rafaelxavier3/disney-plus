@@ -21,3 +21,14 @@
   line-height: 2.125rem;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .navigation {
+    width: 100vw;
+    right: -100vw;
+    padding: 33px 40px 16px 40px;
+  }
+  .navigation.active {
+    transform: translateX(-100vw);
+  }
+}

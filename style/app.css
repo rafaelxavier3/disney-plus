@@ -28,7 +28,7 @@ main {
   inset: 0;
 
   background: linear-gradient(
-    90.18deg,
+    98.18deg,
     rgba(13, 22, 46, 0.7) 23.21%,
     rgba(13, 22, 46, 0.0001) 96.69%
   );
@@ -38,4 +38,37 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 1080px) {
+  #app {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: 24px;
+  }
+  .app__image::after {
+    background: linear-gradient(
+      98.18deg,
+      rgba(3, 3, 3, 0.7) 100%,
+      rgba(13, 22, 46, 0.0001) 96.69%
+    );
+  }
+}
+
+@media (max-width: 414px) {
+  #app {
+    padding: 16px;
+  }
+
+  .app__image::after {
+    background: linear-gradient(
+      98.18deg,
+      rgba(3, 3, 3, 0.7) 100%,
+      rgba(13, 22, 46, 0.0001) 96.69%
+    );
+  }
 }
