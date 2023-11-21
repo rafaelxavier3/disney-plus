@@ -4,7 +4,7 @@
 
 ## Projeto
 
-Esse projeto é uma interface da disney+ que foi aplicado as tecnologias HTML, CSS e JavaScript. Todo o conteúdo da aplicação foi gerado utlizando o serviço(API) da TMDB.
+Esse projeto é uma interface da disney+ que foi aplicado as tecnologias HTML, CSS e JavaScript. Todo o conteúdo da aplicação foi gerado utilizando o serviço(API) da TMDB.
 
 ## Tecnologias
 
